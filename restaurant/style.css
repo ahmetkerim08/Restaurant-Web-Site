@@ -1,0 +1,675 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 100%;
+}
+body {
+  padding-top: 1.5rem;
+  height: 66.5vh;
+  background-color: crimson;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/home.jpg);
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 11.5vh;
+  width: 85%;
+  margin: auto;
+  border-radius: 12.5rem;
+  box-shadow: 0px 0px 1.635rem 0.0625rem;
+}
+
+.logo img {
+  width: 6.25rem;
+  height: 5.625rem;
+}
+
+.links a {
+  padding: 1.25rem;
+  color: black;
+  border-bottom: 0.125rem solid transparent;
+  transition: 0.2s ease;
+}
+
+.icons a span {
+  color: black;
+  font-size: 2rem;
+  padding: 0.6rem;
+}
+
+.home {
+  width: 85%;
+  height: 85.5vh;
+  margin: auto;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 10rem;
+  width: 50%;
+}
+
+.content h3 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+.homebtn button {
+  padding: 1.5rem 3rem;
+  background-color: rgb(29, 28, 28);
+  border: none;
+  border-radius: 3.1rem;
+  transition: 1s opacity;
+}
+
+.buttons {
+  transition: 1s opacity;
+}
+
+.content button a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.buttons:hover {
+  opacity: 0.7;
+}
+
+.links a:focus {
+  border-color: crimson;
+  padding-bottom: 0.5rem;
+}
+
+.links a:hover {
+  border-color: crimson;
+  padding-bottom: 0.5rem;
+}
+
+/* OUR MENU */
+.ourmenu {
+  width: 85%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.ourmenu h1 span {
+  color: white;
+}
+
+.ourmenu h1 {
+  font-size: 3rem;
+  border-bottom: 0.1rem solid #fff;
+}
+
+.ourmenucontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ourmenubox1 {
+  background-color: white;
+  width: 23rem;
+  height: 42rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.ourmenubox1 img {
+  width: 20rem;
+  object-fit: cover;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3rem;
+}
+
+#minipizzas {
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.pricespizza h1 {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+}
+
+.pricespizza h1 span {
+  text-decoration: line-through;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.ourmenubox1 p {
+  padding: 0 2rem;
+}
+
+.ourmenubtn button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  background-color: black;
+  border-radius: 2rem;
+  margin: 2rem 2rem;
+}
+
+.ourmenubtn a {
+  color: white;
+}
+
+.ourmenubox2 {
+  background-color: white;
+  width: 23rem;
+  height: 42rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.ourmenubox2 img {
+  width: 23rem;
+  object-fit: cover;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#miniburgers {
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.pricesburgers h1 {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+}
+
+.pricesburgers h1 span {
+  text-decoration: line-through;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.ourmenubox2 p {
+  padding: 0 2rem;
+}
+
+.ourmenubtnburger button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  background-color: black;
+  border-radius: 2rem;
+  margin: 2rem 2rem;
+}
+
+.ourmenubtnburger a {
+  color: white;
+}
+
+.ourmenubox3 {
+  background-color: white;
+  width: 23rem;
+  height: 42rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.ourmenubox3 img {
+  width: 20rem;
+  object-fit: cover;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3rem;
+}
+
+#mixedpizzas {
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.pricesmixeds h1 {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+}
+
+.pricesmixeds h1 span {
+  text-decoration: line-through;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.ourmenubox3 p {
+  padding: 0 2rem;
+}
+
+.ourmenubtnmixeds button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  background-color: black;
+  border-radius: 2rem;
+  margin: 2rem 2rem;
+}
+
+.ourmenubtnmixeds a {
+  color: white;
+}
+
+.ourmenubox4 {
+  background-color: white;
+  width: 23rem;
+  height: 42rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.ourmenubox4 img {
+  width: 23rem;
+  object-fit: cover;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#burgers3 {
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.prices3burgers h1 {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+}
+
+.prices3burgers h1 span {
+  text-decoration: line-through;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.ourmenubox4 p {
+  padding: 0 2rem;
+}
+
+.ourmenubtn3burgers button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  background-color: black;
+  border-radius: 2rem;
+  margin: 2rem 2rem;
+}
+
+.ourmenubtn3burgers a {
+  color: white;
+}
+
+/* our products */
+
+.ourproducts {
+  width: 85%;
+  margin: auto;
+}
+
+#ourproductsh1 {
+  font-size: 3rem;
+  border-bottom: 1px solid white;
+  padding-top: 3rem;
+}
+
+.ourproductsboxcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ourproducts h1 span {
+  color: white;
+}
+
+.productsbox1 {
+  background-color: white;
+  width: 31rem;
+  height: 40rem;
+  margin-top: 4rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem;
+}
+
+.ourproducts img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  border-radius: 3rem;
+}
+
+#baconburgerbox1 {
+  position: absolute;
+  top: 3rem;
+}
+
+.pricesbaconsbox1 {
+  font-size: 2rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.baconproductsbuttonsbox1 {
+  position: absolute;
+  right: -330px;
+  bottom: -1rem;
+  border: 1px solid crimson;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.baconproductsbuttonsbox1 a {
+  color: red;
+}
+
+.productsbox2 {
+  background-color: white;
+  width: 31rem;
+  height: 40rem;
+  margin-top: 4rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem;
+}
+
+.ourproducts img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  border-radius: 3rem;
+}
+
+#baconburgerbox2 {
+  position: absolute;
+  top: 3rem;
+}
+
+.pricesbaconsbox2 {
+  font-size: 2rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.baconproductsbuttonsbox2 {
+  position: absolute;
+  right: -330px;
+  bottom: -1rem;
+  border: 1px solid crimson;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.baconproductsbuttonsbox2 a {
+  color: red;
+}
+
+.productsbox3 {
+  background-color: white;
+  width: 31rem;
+  height: 40rem;
+  margin-top: 4rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem;
+  color: white;
+  background-image: url(images/dark-product.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.baconburgerbox3 {
+  position: absolute;
+  top: 3rem;
+}
+
+.pricesbaconsbox3 {
+  font-size: 2rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.baconproductsbuttonsbox3 {
+  position: absolute;
+  right: -330px;
+  bottom: -1rem;
+  border: 1px solid crimson;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.baconproductsbuttonsbox3 a {
+  color: red;
+}
+
+.aboutus {
+  width: 85%;
+  margin: auto;
+}
+
+.aboutusdiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3rem;
+}
+
+.aboutush1 h1 {
+  font-size: 3rem;
+  border-bottom: 1px solid white;
+  margin-top: 3rem;
+}
+
+.aboutush1 h1 span {
+  color: white;
+}
+
+.aboutus img {
+  height: 500px;
+  border-radius: 20px;
+}
+
+.font {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.font p {
+  font-size: 1rem;
+}
+
+.aboutus-button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  background-color: black;
+}
+
+.aboutus-button a {
+  color: white;
+}
+
+.contactus {
+  width: 85%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.contactush1 h1 {
+  border-bottom: 1px solid white;
+  font-size: 3rem;
+}
+
+.contactush1 h1 span {
+  color: white;
+}
+
+.contactus-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3rem;
+}
+
+.map iframe {
+  width: 100%;
+  height: 30rem;
+  border: none;
+}
+
+.inputs {
+  background-color: rgb(14, 13, 13);
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.inputs h1 {
+  margin-top: 1.8rem;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+}
+
+#name {
+  width: 90%;
+  background-color: rgb(14, 13, 13);
+  border: 1px solid white;
+  height: 3.5rem;
+  opacity: 0.5;
+  margin-top: 3rem;
+  color: white;
+  padding-left: 3rem;
+}
+
+#name::placeholder {
+  font-size: 1rem;
+  color: white;
+}
+
+#mail {
+  width: 90%;
+  background-color: rgb(14, 13, 13);
+  border: 1px solid white;
+  height: 3.5rem;
+  opacity: 0.5;
+  margin-top: 2rem;
+  color: white;
+  padding-left: 3rem;
+}
+
+#mail::placeholder {
+  font-size: 1rem;
+  color: white;
+}
+
+#number {
+  width: 90%;
+  background-color: rgb(14, 13, 13);
+  border: 1px solid white;
+  height: 3.5rem;
+  opacity: 0.5;
+  margin-top: 2rem;
+  color: white;
+  padding-left: 3rem;
+}
+
+#number::placeholder {
+  font-size: 1rem;
+  outline: none;
+  color: white;
+}
+
+.input-buttons {
+  position: absolute;
+  left: 4rem;
+  bottom: 1rem;
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(192, 13, 49);
+}
+
+.input-buttons a {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.end {
+  height: 6rem;
+}
